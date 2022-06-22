@@ -1,4 +1,4 @@
-near-blank-project Smart Contract
+nft-mint-frontend Smart Contract
 ==================
 
 A [smart contract] written in [Rust] for an app initialized with [create-near-app]
@@ -13,7 +13,8 @@ Before you compile this code, you will need to install Rust with [correct target
 Exploring The Code
 ==================
 
-1. The main smart contract code lives in `src/lib.rs`.
+1. The main smart contract code lives in `src/lib.rs`. You can compile it with
+   the `./compile` script.
 2. Tests: You can run smart contract tests with the `./test` script. This runs
    standard Rust tests using [cargo] with a `--nocapture` flag so that you
    can see any debug info you print to the console.
